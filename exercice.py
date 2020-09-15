@@ -17,7 +17,7 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
     if(old_char in string):
         for i in range(len(string)-1):
             if string[i] == old_char:
-                string = string[0:i] + new_char + string[i+1: len(string)]
+                string = string[0:i] + new_char + string[i+1:]
     return string
     #Pour optimiser, j'aurais mis le len(string) dans une variable (si mémoire n'est pas un problème)
 
