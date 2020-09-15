@@ -39,6 +39,7 @@ def get_number_of_words(sentence: str, word: str) -> int:
             nb_mots += 1
 
     return nb_mots
+    #Pour optimiser, j'aurais mis le len(word)
 
 
 def main() -> None:
