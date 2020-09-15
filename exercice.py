@@ -17,6 +17,7 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
     if(old_char in string):
         for i in range(len(string)-1):
             if string[i] == old_char:
+                string = 
                 string[i] = new_char
     return string
 
