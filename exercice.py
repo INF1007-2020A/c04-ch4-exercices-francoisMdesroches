@@ -24,7 +24,7 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
 
 def get_number_of_char(string: str, char: str) -> int:
     nb_Occurences = 0
-    for
+    for i in range(len(string)-1)
 
     pass
 
