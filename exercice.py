@@ -34,8 +34,8 @@ def get_number_of_char(string: str, char: str) -> int:
 def get_number_of_words(sentence: str, word: str) -> int:
     nb_mots = 0
 
-    for i in range(len(string)-4)
-        if(string[i, i+2]==word)
+    for i in range(len(sentence)-4)
+        if(sentence[i, i+2]==word)
 
     return nb_mots
 
