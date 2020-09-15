@@ -26,9 +26,9 @@ def get_number_of_char(string: str, char: str) -> int:
     nb_Occurences = 0
     for i in range(len(string)-1):
         if string[i] == char:
-            nb_Occurences+=1
+            nb_Occurences += 1
 
-    pass
+    return nb_Occurences
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
