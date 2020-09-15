@@ -34,6 +34,7 @@ def get_number_of_char(string: str, char: str) -> int:
 def get_number_of_words(sentence: str, word: str) -> int:
     nb_mots = 0
 
+    
 
     return nb_mots
 
